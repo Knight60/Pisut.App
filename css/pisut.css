@@ -1,0 +1,87 @@
+body {
+    background-color: #505c69;
+    font-family: "Heebo", sans-serif;
+    font-style: normal;
+}
+
+.service-item {
+    cursor: pointer;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    /*font-family: "Nunito", sans-serif;*/
+    font-family: "Heebo", sans-serif;
+
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.antonio-bold {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #248991;
+    border-color: #094f77;
+}
+
+.btn-primary:hover {
+    color: #000;
+    background-color: #82dfe5;
+    border-color: #4bb5f3;
+}
+
+#globe3d-container {
+    width: 400px;
+    height: 400px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.icon-title {
+    font-size: 1em;
+}
+
+.icon-topic {
+    font-size: 4em;
+}
+
+.text-primary {
+    color: #a4ccff !important;
+}

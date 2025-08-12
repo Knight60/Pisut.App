@@ -1,14 +1,16 @@
 {
-  "name": "pisut.app",
-  "version": "1.0.0",
-  "main": "app.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "dependencies": {
+        "@google-cloud/bigquery": "^7.9.2",
+        "@google-cloud/local-auth": "^2.1.1",
+        "body-parser": "^1.20.1",
+        "cjs": "^0.0.11",
+        "express": "^4.18.1",
+        "googleapis": "^105.0.0",
+        "jsonwebtoken": "^9.0.2",
+        "multer": "^1.4.5-lts.1",
+        "open": "^10.0.3"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
 }

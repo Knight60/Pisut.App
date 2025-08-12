@@ -206,9 +206,10 @@ async function listMajors(auth) {
 }
 
 //=====================================================================
-
+/* GCloud Authen
 authorize().then(WebApp).catch(console.error);
-//WebApp();
+*/
+WebApp();
 
 function WebApp(client) {
     const jwt = require("jsonwebtoken");
